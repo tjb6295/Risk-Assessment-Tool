@@ -1,0 +1,149 @@
+<html>
+<!-- credit to https://www.codebrainer.com/blog/contact-form-in-javascript -->
+<head>
+  <title>Risk Assessment Tool</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <meta charset="utf-8">
+  <meta name="description" content="IST 256 Resume">
+  <meta name="keywords" content="IST 256,Resume, Thomas Beck">
+  <meta name="author" content="Thomas Beck">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+  <script src="javascripts/script.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <h1>Risk Assessment Tool</h1>
+  <p>Team Four's Risk Assessment Tool</p>
+
+  <h3>Risk Form</h3>
+
+  <form onsubmit="return false"></form>
+
+  <input type="text" placeholder="Enter your first name" id="firstName">
+  <br>
+  <br>
+
+  <input type="text" placeholder="Enter your last name" id="lastName">
+  <br>
+  <br>
+
+  <input type="email" placeholder="Enter your email" id="email">
+     
+  <select id="state">
+    <option disabled selected value> -- select a Branch -- </option>
+    <option value="State College">State College, PA</option>
+    <option value="Philadelphia">Philadelphia, PA</option>
+    <option value="Pittsburgh">Pittsburgh, PA</option>
+    <option value="Rochester">Rochester, NY</option>
+    <option value="Buffalo">Buffalo, NY</option>
+    <option value="Other">Other</option>
+  </select>
+  <br>
+  <br>
+
+  <input type="radio" id="Manager" name="discription" value="manager"> Manager
+  <input type="radio" id="Employer" name="discription" value="employer"> Employee
+  <input type="radio" id="Other" name="discription" value="other"> Other
+  <br>
+  <br>
+
+  <span>Briefly Describe your Concerns.</span>
+  <br>
+
+  <textarea id="question" rows="10" cols="50"></textarea>
+  <br>
+  <br>
+
+  <!-- <div class="center"> -->
+
+  <p>Please fill out our risk assessment questionaire.</p>
+
+  <span>question</span>
+  <br>
+  <span>Please Enter Your Response</span>
+  <br>
+  <textarea id="question" rows="5" cols="20"></textarea>
+  <br>
+  <br>
+
+  <span>question</span>
+  <br>
+  <span>Please Enter Your Response</span>
+  <br>
+  <textarea id="question" rows="5" cols="20"></textarea>
+  <br>
+  <br>
+
+  <span>question</span>
+  <br>
+  <span>Please Enter Your Response</span>
+  <br>
+  <textarea id="question" rows="5" cols="20"></textarea>
+  <br>
+  <br>
+
+  <span>question</span>
+  <br>
+  <span>Please Enter Your Response</span>
+  <br>
+  <textarea id="question" rows="5" cols="20"></textarea>
+  <br>
+  <br>
+
+  <span>question</span>
+  <br>
+  <span>Please Enter Your Response</span>
+  <br>
+  <textarea id="question" rows="5" cols="20"></textarea>
+  <br>
+  <br>
+
+  <span>question</span>
+  <br>
+  <input type="radio" id="Yes" name="discription" value="yes"> Yes
+  <input type="radio" id="Nor" name="discription" value="no"> No
+  <input type="radio" id="Maybe" name="discription" value="maybe"> Maybe
+  <br>
+  <br>
+
+  <span>question</span>
+  <br>
+  <input type="radio" id="Yes" name="discription" value="yes"> Yes
+  <input type="radio" id="Nor" name="discription" value="no"> No
+  <input type="radio" id="Maybe" name="discription" value="maybe"> Maybe
+  <br>
+  <br>
+
+  <span>question</span>
+  <br>
+  <input type="radio" id="Yes" name="discription" value="yes"> Yes
+  <input type="radio" id="Nor" name="discription" value="no"> No
+  <input type="radio" id="Maybe" name="discription" value="maybe"> Maybe
+  <br>
+  <br>
+
+  <span>question</span>
+  <br>
+  <input type="radio" id="Yes" name="discription" value="yes"> Yes
+  <input type="radio" id="Nor" name="discription" value="no"> No
+  <input type="radio" id="Maybe" name="discription" value="maybe"> Maybe
+  <br>
+  <br>
+
+  <span>question</span>
+  <br>
+  <input type="radio" id="Yes" name="discription" value="yes"> Yes
+  <input type="radio" id="Nor" name="discription" value="no"> No
+  <input type="radio" id="Maybe" name="discription" value="maybe"> Maybe
+  <br>
+  <br>
+
+  <button onclick="submitAssessment();">Submit Assessment</button>
+
+<!-- </div> -->
+
+</body>
+
+</html>
